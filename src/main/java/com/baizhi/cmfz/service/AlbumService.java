@@ -16,8 +16,4 @@ public interface AlbumService {
     void albumUpdate(Album album);
 
     void delete(Album album);
-
-    void addCount(String albumId);
-
-    void discount(String albumId);
 }
